@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inch</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      html {
+        scroll-snap-type: y mandatory;
+      }
+
+      section {
+        padding: 10px;
+        height: 100vh;
+        scroll-snap-align: start;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "j") window.scrollBy({ top: window.innerHeight })
+        if (e.key === "k") window.scrollBy({ top: -window.innerHeight })
+      })
+    </script>
+
+    <section>
+      <h1>Slide 1</h1>
+    </section>
+
+    <section>
+      <h1>Slide 2</h1>
+    </section>
+
+    <section>
+      <h1>Slide 3</h1>
+    </section>
+  </body>
+</html>
