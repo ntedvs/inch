@@ -1,14 +1,17 @@
 # Inch
 
-A simple keyboard-navigable slide viewer.
+Simple keyboard-navigable slides.
+
+**Demo:** [inch.ntedvs.com](https://inch.ntedvs.com)
 
 ## Usage
 
-Open `index.html` in a browser.
+Press `j` / `k` or scroll
 
-- Press `j` to go to next slide
-- Press `k` to go to previous slide
+## Works Offline
 
-## How it works
+Pure HTML. No dependencies.
 
-Uses CSS scroll-snap for smooth slide transitions and JavaScript keyboard controls.
+## Perfect For
+
+Quick presentations and demos.
